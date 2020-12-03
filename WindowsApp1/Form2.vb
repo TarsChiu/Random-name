@@ -86,7 +86,7 @@ Public Class Form2
     End Sub
     Private Sub 编写ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles 编写ToolStripMenuItem.Click
         If CStr(ListBox1.SelectedItem) = "" Then
-            MsgBox("请选择集合", vbInformation, "Error")
+            MsgBox("请选择集合……", vbInformation, "Error")
         Else
             train = CStr(ListBox1.SelectedItem)
             Dim reader As StreamReader = New StreamReader(Application.StartupPath + "\GH\" + CStr(ListBox1.SelectedItem) + ".txt")
