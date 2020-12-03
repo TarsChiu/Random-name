@@ -9,7 +9,7 @@ git add -A
 git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io
-git push -f git@github.com:TarsChiu/Random-name.git master
+git push -f git@github.com:TarsChiu/Random-name.git main
 pause
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
